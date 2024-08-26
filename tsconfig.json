@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "es2016"],
+    "outDir": "./lib/cjs/",
+    "sourceMap": true,
+    "declaration": true,
+    "noImplicitAny": true,
+    "module": "esnext",
+    "target": "es2016",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  "include": ["src/**/*.ts*"],
+  "exclude": ["node_modules", "dist", "lib"]
+}
